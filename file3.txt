@@ -1,0 +1,4 @@
+(); 
+OutputStream f2 = new FileOutputStream("file3.txt"); 
+f2.write(buf,buf.length-buf.length/4,buf.length/4); 
+f2.close(); 
